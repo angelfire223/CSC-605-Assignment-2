@@ -1,9 +1,8 @@
 # CSC-605-Assignment-2
 Component Level Design
+# Detailed Object Model
 
 # User Input and Budget Setup: This component handles all inputs provided by the user, such as income, expenses, and goal setting. It ensures data validation and triggers calculation workflows.
-
-# Detailed Object Model
 class UserInput:
     def __init__(self, income, expenses, goal):
         self.income = income
